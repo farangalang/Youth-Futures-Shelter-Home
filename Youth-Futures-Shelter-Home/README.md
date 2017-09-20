@@ -1,4 +1,4 @@
-##Assignments
+## Assignments
 
 - [ ] Show connection with git to team
 - [ ] Establish Comment Convention
