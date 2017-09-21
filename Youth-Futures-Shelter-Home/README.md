@@ -7,5 +7,5 @@
 Person | SectionAssignment | Status
 ------ | ----------------- | ------
 Scott | Login | Not Started
-Jeff | Something Else
+Jeff | Something
 
