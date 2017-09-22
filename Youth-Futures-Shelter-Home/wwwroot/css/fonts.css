@@ -1,21 +1,21 @@
 @font-face {
     font-family: montserrat-light;
-    src: url(../resources/montserrat-light.otf);
+    src: url(../images/montserrat-light.otf);
 }
 
 @font-face {
     font-family: montserrat-regular;
-    src: url(../resources/montserrat-regular.otf);
+    src: url(../images/montserrat-regular.otf);
 }
 
 @font-face {
     font-family: montserrat-semibold;
-    src: url(../resources/montserrat-semibold.otf);
+    src: url(../images/montserrat-semibold.otf);
 }
 
 @font-face {
     font-family: quicksand-bold;
-    src: url(../resources/quicksand-bold.otf);
+    src: url(../images/quicksand-bold.otf);
 }
 
 .dark_back{

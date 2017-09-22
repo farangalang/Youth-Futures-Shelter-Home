@@ -3,11 +3,11 @@
 }
 
 .hist_main_img {
-	background-image: url(../resources/history_header.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 508px;
-	margin: 0;	
+    background-image: url(../images/history_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 508px;
+    margin: 0;
 }
 
 .hist_main_img .text{
@@ -53,11 +53,11 @@
 }
 
 .hist_2nd_back_img {
-	background-image: url(../resources/history_5000.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 277px;
-	margin: 0;	
+    background-image: url(../images/history_5000.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 277px;
+    margin: 0;
 }
 
 .hist_2nd_back_img_text{
@@ -121,11 +121,11 @@
 }
 
 .outreach_main_img {
-	background-image: url(../resources/outreach_header.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 508px;
-	margin: 0;	
+    background-image: url(../images/outreach_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 508px;
+    margin: 0;
 }
 
 .outreach_main_img .text{
