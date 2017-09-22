@@ -179,7 +179,7 @@ color: white;
 }
 
 .main_img {
-	background-image: url(../resources/home_header.png);
+	background-image: url(../images/home_header.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 508px;
@@ -269,11 +269,11 @@ color: white;
 }
 
 .main_purpose_img {
-	background-image: url(../resources/purpose.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 695px;
-	margin: 0;	
+    background-image: url(../images/purpose.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 695px;
+    margin: 0;
 }
 
 .main_purpose_text{
