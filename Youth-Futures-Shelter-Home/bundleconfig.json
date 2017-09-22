@@ -38,5 +38,11 @@
     "inputFiles": [
       "wwwroot/js/secondaryScripts.js"
     ]
+  },
+  {
+    "outputFileName": "wwwroot/css/main.min.css",
+    "inputFiles": [
+      "wwwroot/css/main.css"
+    ]
   }
 ]
