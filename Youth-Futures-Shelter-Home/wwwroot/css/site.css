@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: 'montserrat-regular';
-    src: url('resources/montserrat-regular.otf') format('opentype');
+    src: url('../images/montserrat-regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'montserrat-semibold';
-    src: url('resources/montserrat-semibold.otf') format('opentype');
+    src: url('../images/montserrat-semibold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'quicksand-bold';
-    src: url('resources/quicksand-bold.otf') format('opentype');
+    src: url('../images/quicksand-bold.otf') format('opentype');
 }
 
 
@@ -278,7 +278,7 @@ h1, h2, h4, h6 {
 }
 
 .main-header {
-    background-image: url('./resources/home_header.png');
+    background-image: url('../images/home_header.png');
     min-height: 509px;
     background-repeat: no-repeat;
 }
@@ -635,7 +635,7 @@ footer .row {
 }
 
 .purpose {
-    background-image: url(./resources/purpose.png);
+    background-image: url(../images/purpose.png);
     background-repeat: no-repeat;
     background-color: #474747;
     min-height: 695px;
