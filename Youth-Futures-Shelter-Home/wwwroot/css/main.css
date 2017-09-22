@@ -179,11 +179,11 @@ color: white;
 }
 
 .main_img {
-	background-image: url(../images/home_header.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 508px;
-	margin: 0;	
+    background-image: url("../images/home_header.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 508px;
+    margin: 0;
 }
 
 .main_img_text{

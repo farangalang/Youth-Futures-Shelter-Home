@@ -278,8 +278,8 @@ h1, h2, h4, h6 {
 }
 
 .main-header {
-    background-image: url('../images/home_header.png');
-    min-height: 509px;
+    background-image: url("../images/home_header.png");
+    min-height: 509px; 
     background-repeat: no-repeat;
 }
 
