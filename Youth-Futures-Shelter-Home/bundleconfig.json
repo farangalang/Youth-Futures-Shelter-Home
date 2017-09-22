@@ -26,5 +26,17 @@
     "inputFiles": [
       "wwwroot/css/fonts.css"
     ]
+  },
+  {
+    "outputFileName": "wwwroot/js/gen_validatorv31.min.js",
+    "inputFiles": [
+      "wwwroot/js/gen_validatorv31.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/secondaryScripts.min.js",
+    "inputFiles": [
+      "wwwroot/js/secondaryScripts.js"
+    ]
   }
 ]
