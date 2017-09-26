@@ -94,9 +94,10 @@
 }
 
 .navbar-inverse .navbar-nav li.donate {
-	height: 103px;
-	width: 159px;
-	background-color: #474747;
+    height: 103px;
+    width: 159px;
+    background-color: #c5e4f6;
+    ;
 }
 
 .navbar-inverse .navbar-nav>li.donate>a {
