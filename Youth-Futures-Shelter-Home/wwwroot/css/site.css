@@ -479,7 +479,7 @@ footer .row {
 
 .navbar .navbar-right > li:last-child {
     width: 159px;
-    background-color: #474747;
+    background-color: #c5e4f6;
 }
 
     .navbar .navbar-right > li:last-child a {
@@ -489,7 +489,7 @@ footer .row {
 
         .navbar .navbar-right > li:last-child a:hover {
             color: #83a44a !important;
-            background-color: #c5e4f6;
+            background-color: #c5e4f6; 
         }
 
 .container-fluid {
@@ -502,7 +502,7 @@ footer .row {
     margin-top: 23px;
     margin-right: 30px;
     background-color: #9ec54d;
-    box-shadow: 5px 5px 8px -2px #4A4A4A;
+    box-shadow: 5px 5px 8px -2px #c5e4f6;
 }
 
     .navbar-default .navbar-toggle .icon-bar {

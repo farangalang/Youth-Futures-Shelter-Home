@@ -137,9 +137,9 @@ color: white;
 	height: 74px;
 }
 
-.navbar-inverse .navbar-nav>.donate>a:focus, .navbar-inverse .navbar-nav>.donate>a:hover {
-	color: white;	
-	background-color: #474747;
+.navbar-inverse .navbar-nav > .donate > a:focus, .navbar-inverse .navbar-nav > .donate > a:hover {
+    color: white;
+    background-color: #c5e4f6;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
@@ -317,9 +317,9 @@ color: white;
 }
 
 .main_purpose_p_1 {
-	text-align: center;
-	background-color: white;
-	color: #474747;
+    text-align: center;
+    background-color: white;
+    color: #c5e4f6;
 }
 
 .main_purpose_p_1 span{
