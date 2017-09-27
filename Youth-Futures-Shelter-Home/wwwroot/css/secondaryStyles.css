@@ -2,6 +2,9 @@
 	background-color: #1c5788;
 }
 
+/**************************************
+    History
+***************************************/
 .hist_main_img {
     background-image: url(../images/history_header.jpg);
     background-size: cover;
@@ -96,6 +99,9 @@
 	text-align: center;
 }
 
+/***********************
+    More
+************************/
 .more{
 	padding-bottom: 10%;
 }
@@ -120,6 +126,9 @@
 	padding-left: 5%;
 }
 
+/*********************************************************
+    Outreach
+**********************************************************/
 .outreach_main_img {
     background-image: url(../images/outreach_header.jpg);
     background-size: cover;
@@ -166,6 +175,9 @@
 	padding: 0%;
 }
 
+/*******************************
+    Board of Directors
+********************************/
 .board_header {
 	background-color: white;
 }
@@ -212,6 +224,9 @@
 	color: #8ebc3d;
 }
 
+/*********************************
+    Media
+**********************************/
 .media_header {
 	background-color: white;
 }
@@ -280,6 +295,9 @@
 	text-align: left;
 }
 
+/************************************
+    Donor
+*************************************/
 .donor_header {
 	background-color: white;
 }
@@ -400,6 +418,9 @@
 	
 }
 
+/********************************
+    Needs
+*********************************/
 .needs{
 	background-color: white;	
 }
@@ -445,6 +466,9 @@
 	padding-left: 5%;
 }
 
+/******************************
+    Contact
+*******************************/
 .contact_subheader {
 	font-family: "montserrat-semibold";
 	font-size: 20px;
@@ -474,7 +498,9 @@
 	margin-bottom: 5%;
 }
 
-
+/********************************
+    Buttons
+*********************************/
 .submit_button {
 	background-color: #9ec54d;
 	font-family: "montserrat-semibold";
@@ -499,6 +525,9 @@
 	border-color: #9ec54d;
 }
 
+/*
+    Contact Cont.
+*/
 .contact_info_text {
 	list-style-type: none;
 	font-family: "montserrat-light";

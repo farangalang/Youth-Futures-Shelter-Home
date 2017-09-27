@@ -1,4 +1,7 @@
-﻿@font-face {
+﻿/**********************
+    Fonts
+***********************/
+@font-face {
     font-family: 'montserrat-light';
     src: url('../images/montserrat-light.otf') format('opentype');
 }
@@ -19,7 +22,9 @@
 }
 
 
-
+/**************************************
+    HTML Tags
+***************************************/
 body {
     width: 100%;
     background-color: rgba(76, 95, 111, 0.15);
@@ -59,6 +64,9 @@ h1, h2, h4, h6 {
     font-family: quicksand-bold;
 }
 
+/**********************************
+    Colored Things
+***********************************/
 .dark-back {
     background-color: #474747;
     width: 620px;
@@ -262,6 +270,9 @@ h1, h2, h4, h6 {
     font-family: montserrat-regular;
 }
 
+/**************************************
+    Header
+***************************************/
 .navbar {
     min-height: 103px;
     background-color: #ffffff;
@@ -337,6 +348,9 @@ h1, h2, h4, h6 {
     margin-left: 550px;
 }
 
+/**********************************
+    Breadcrumb
+***********************************/
 .breadcrumb-box {
     min-height: 66px;
     margin-right: 0;
@@ -376,15 +390,18 @@ h1, h2, h4, h6 {
     font-size: 18px;
 }
 
+/*******************************************
+    Footer
+********************************************/
 footer {
     min-height: 206.3px;
     background-image: linear-gradient(261deg, #b2da55, #678a2a);
     margin: auto;
 }
 
-.container-fluid {
+/*.container-fluid {
     margin-top: -1px;
-}
+}*/
 
 footer .row {
     margin-right: -15px;
@@ -434,7 +451,9 @@ footer .row {
     padding: 10px 173px 10px 18px;
 }
 
-
+/******************************
+    Navigation
+*******************************/
 .navbar-brand {
     padding: 0;
     min-height: 103px;
@@ -494,7 +513,8 @@ footer .row {
 
 .container-fluid {
     padding-right: 0px;
-}
+    margin-top: -1px;
+} 
 
 .navbar-default .navbar-toggle {
     height: 63px;
@@ -514,6 +534,9 @@ footer .row {
         background-color: #6e8d45;
     }
 
+/*
+    Services and Boxes
+*/
 .services {
     padding: 75px 0 72px 0;
     background-color: #FFF;
@@ -522,11 +545,13 @@ footer .row {
 .boxes {
     margin-top: 52px;
     margin-bottom: 72px;
-    padding: 0 97px;
+    /*padding: 0 97px;*/
+    padding: 0 35px;
 }
 
     .boxes > .panel {
-        margin-right: 47px;
+        /*margin-right: 47px;*/
+        margin-right: 35px;
         min-width: 330px;
         min-height: 594px;
         background-color: #FFF;
@@ -560,6 +585,10 @@ footer .row {
     text-align: center;
     padding: 0 248px 0 248px;
 }
+
+/*
+    Panel
+*/
 
 .panel-heading {
     margin-bottom: 16px;
