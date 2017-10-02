@@ -18,6 +18,11 @@ namespace Youth_Futures_Shelter_Home.Controllers
             return View();
         }
 
+        public IActionResult IndexEdit()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
