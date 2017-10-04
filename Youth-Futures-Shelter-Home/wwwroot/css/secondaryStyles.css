@@ -578,56 +578,71 @@
 /***********************
     Login
 ************************/
+
+#loginScn {
+    font-family: "montserrat-regular";
+    background: rgba(234, 234, 230, 0.6);
+}
+
+.modal .login{
+    margin-top: 10%;
+    margin-left: 40%;
+}
 .login form {
-    /*float: left;*/
-    /*margin: 0 35% 0 35%;*/
-    /*max-width: 350px;*/
     height: 400px;
     background-color: white;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    border-style:double;
+    border-style: solid;
     border-color: #71963a;
-    border-width:8px;
+}
+
+#loginModal {
+    max-width: 360px;
+    max-height: 410px;
+    padding: 2px;
+    background-color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #663300;
 }
 
 .login * {
+    opacity: 1;
     max-width: 350px;
     padding: 5px;
-    /*outline:solid;
-    outline-color:black;*/
     overflow: hidden;
-}
-
-.login h3 {
-    text-align: center;
-    color: #9ec54d; /*#71963a;*/
+    font-size: large;
 }
 
 .login .rw3 {
     margin-left: 10%;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
-.login .rw3 button {
+    .login .rw3 button {
         height: 50px;
         width: 100px;
-}
+        font-weight:bold;
+    }
 
 .login .container {
     margin-top: 20px;
 }
 
-.login .sbmt {
+.login #sbmt {
     margin-right: 10px;
     background-color: #9ec54d;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     border-radius: 7px;
+    color: white;
 }
 
-.login .cncl {
+.login #cncl {
     margin-left: 10px;
     background-color: lightgray;
     -moz-border-radius: 7px;
@@ -638,19 +653,10 @@
 .login label {
     vertical-align: text-bottom;
     margin: 5px 0 0 0;
-    /*outline: solid;
-    outline-color: black;*/
     padding: 0;
+    color: #663300;
 }
 
 .login input {
-    /*margin:0 0 5px 0;*/
-    /*outline: solid;
-    outline-color: black;*/
     width: 280px;
 }
-
-/*.login .rw1, .login .rw2 {
-    outline: solid;
-    outline-color: black;
-}*/
