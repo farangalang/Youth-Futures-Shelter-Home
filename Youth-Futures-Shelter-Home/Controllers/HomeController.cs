@@ -27,5 +27,10 @@ namespace Youth_Futures_Shelter_Home.Controllers
         {
             return View();
         }
+
+        public PartialViewResult _Login()
+        {
+            return PartialView();
+        }
     }
 }
