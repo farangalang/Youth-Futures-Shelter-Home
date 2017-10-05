@@ -581,33 +581,25 @@
 
 #loginScn {
     font-family: "montserrat-regular";
-    background: rgba(234, 234, 230, 0.6);
+    background: rgba(234, 234, 234, 0.8);
 }
 
-.modal .login{
+#loginCase {
+    max-width: 380px;
+    height: 470px;
     margin-top: 10%;
-    margin-left: 40%;
-}
-.login form {
-    height: 400px;
-    background-color: white;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #71963a;
+    margin-left: 37%;
+    padding:1px;
 }
 
-#loginModal {
-    max-width: 360px;
-    max-height: 410px;
-    padding: 2px;
+.login form {
+    height: 440px;
     background-color: white;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
     border-style: solid;
-    border-color: #663300;
+    border-color: #86ad38 ;/*#71963a;*/
 }
 
 .login * {
@@ -618,12 +610,28 @@
     font-size: large;
 }
 
+.login .image{
+    margin-top: 20px;
+}
+
+.login .rw4 {
+    width: 320px;
+}
+
+.login .rw4 p, .login .rw4 p a{
+    font-size: small;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+
 .login .rw3 {
     margin-left: 10%;
     padding-top: 20px;
 }
 
-    .login .rw3 button {
+    /*.login .rw3 button {*/
+    .login button{
         height: 50px;
         width: 100px;
         font-weight:bold;
@@ -634,20 +642,43 @@
 }
 
 .login #sbmt {
-    margin-right: 10px;
+    margin-right: 20px;
     background-color: #9ec54d;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     border-radius: 7px;
     color: white;
+
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
-.login #cncl {
-    margin-left: 10px;
-    background-color: lightgray;
+    .login #sbmt:hover {
+        background-color: #86ad38;
+    }
+
+#cncl {
+    /*background-color: #cccccc;*/
+    background: rgba(204, 204, 204, 0.0);
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     border-radius: 7px;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 0px 0px 0px 348px;
+    padding: 0;
+}
+
+#cncl:hover{
+    /*background-color: #b3b3b3;*/
+    background: rgba(179,179,179,0.6);
+}
+
+#cncl span.glyphicon{
+    font-size:x-large;
+    margin:3px 0px 0px 3px;
 }
 
 .login label {
@@ -655,8 +686,23 @@
     margin: 5px 0 0 0;
     padding: 0;
     color: #663300;
+    margin-left:15px;
 }
 
 .login input {
     width: 280px;
+    margin-left:15px;
+}
+
+#loginScn #loginCase #loginModal {
+    max-width: 360px;
+    max-height: 450px;
+    padding: 2px;
+    margin: 10px;
+    background-color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #663300;
 }
