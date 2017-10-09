@@ -29,6 +29,7 @@
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
 <body>
+    
     <div id="main-body">
         <nav class="navbar navbar-default">
             <div class="container-fluid">
@@ -85,17 +86,27 @@
             <!-- /.container-fluid -->
         </nav>
         </div>
+    <div style="display:none" id="sidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        
+            <div class="sub-text-box row">
+                <p class="sub-text col-xs-12">14 WARM BEDS. YOUTH 12-17. YOUR TEMPORARY HOME <span class="quicksand-dark-38-lightgreen">:) </span></p>
+            </div>
+        
+            <h4>Services</h4>
+            <p>Our programming is divided into three main areas. Each program area has specific components to meet the needs of the youth in need.</p>
+        
+    </div>
+
         <div class="container body-content">
 
             <div id="loginScn" class="modal">
                 @{ 
                     Html.RenderPartial("_Login");
                  }
-            </div>
-            <div class="container body-content">
-                @{ 
-                    Html.RenderPartial("_Edit");
-                }
             </div>
 
             @RenderBody()

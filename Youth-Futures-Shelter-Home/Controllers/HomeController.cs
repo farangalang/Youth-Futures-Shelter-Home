@@ -18,7 +18,7 @@ namespace Youth_Futures_Shelter_Home.Controllers
             return View();
         }
 
-        public IActionResult IndexEdit()
+        public IActionResult _Edit()
         {
             return PartialView();
         }
