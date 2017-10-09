@@ -706,3 +706,10 @@
     border-style: solid;
     border-color: #663300;
 }
+
+#sidebar {
+    float: left;
+    width: 250px;
+    background: #ccc;
+    min-height: 100%;
+}

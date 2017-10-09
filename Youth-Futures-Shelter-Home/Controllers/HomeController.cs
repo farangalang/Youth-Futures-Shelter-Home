@@ -20,7 +20,7 @@ namespace Youth_Futures_Shelter_Home.Controllers
 
         public IActionResult IndexEdit()
         {
-            return View();
+            return PartialView();
         }
 
         public IActionResult Error()

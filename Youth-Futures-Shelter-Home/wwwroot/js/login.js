@@ -10,3 +10,10 @@ window.onclick = function (event) {
         modal.style.display = 'none';
     }
 }
+
+function w3_open() {
+    document.getElementById("sidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("sidebar").style.display = "none";
+}

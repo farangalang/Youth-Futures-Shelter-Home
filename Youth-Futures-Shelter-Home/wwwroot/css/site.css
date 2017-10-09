@@ -900,3 +900,10 @@ footer .row {
             margin: 10px 0 10px 0;
         }
 }
+
+#sidebar {
+    float: left;
+    width: 250px;
+    background: #ccc;
+    min-height: 100%;
+}

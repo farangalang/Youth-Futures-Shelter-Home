@@ -1,53 +1,64 @@
 ﻿@{
-    ViewData["Title"] = "IndexEdit";
+    ViewBag.Title = "edit";
     Layout = "_Layout";
 }
-    <div id="header">
-        <div class="logo"><a href="#">Edit Mode</a></div>
-    </div>
+<article>
 
-    <a class="mobile" href="#">MENU</a>
-
-    <div id="container">
-        <div class="sidebar">
-            <ul id="nav">
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Booter Hub</a></li>
-                <li><a href="#">Stresser</a></li>
-                <li><a href="#">Friends</a></li>
-                <li><a href="#">Search</a></li>
-                <li><a href="#">Purchase</a></li>
-            </ul>
-        </div>
-        <div class="content">
-
-            <div id="box">
-                <div class="box-top">
-                    News
-                </div>
-                <div class="box-panel">
-                    This is some simple news lallalal
-                </div>
+    <div class="container-fluid needs" id="contactMain">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 contact_form">
+                <form method="post" name="myemailform" action="form-to-email.php">
+                    <input type="text" class="input_text" name="firstName" placeholder="First Name" maxlength="20"> <span class="change" id="fName_change">Required!</span>
+                    <br>
+                    <input type="text" class="input_text" name="lastName" placeholder="Last Name" maxlength="20"><span class="change" id="lName_change">Required!</span>
+                    <br>
+                    <input type="tel" name="phone" placeholder="Telephone (Optional)" maxlength="20">
+                    <br>
+                    <input type="email" class="input_text" name="email" placeholder="Email Address" maxlength="40"><span class="change" id="email_change">Required!</span>
+                    <br>
+                    <textarea name="message" class="input_text" placeholder="Message" maxlength="255"></textarea><span class="change" id="message_change">Required!</span>
+                    <br>
+                    <input type="submit" class="submit_button" id="submit" value="Submit" disabled>
+                    <input type="reset" value="Cancel" class="cancel" />
+                </form>
             </div>
-
-            <div id="box">
-                <div class="box-top">
-                    News
-                </div>
-                <div class="box-panel">
-                    This is some simple news lallalal
-                </div>
-            </div>
-
-            <div id="box">
-                <div class="box-top">
-                    News
-                </div>
-                <div class="box-panel">
-                    This is some simple news lallalal
-                </div>
-            </div>
-
-
         </div>
     </div>
+
+</article>
+<footer>
+    <div class="container-fluid foot_cont">
+        <div class="row foot">
+            <section class="col-sm-12 col-md-2 contact">
+                <p class="quick_bold_18_white">Contact</p>
+                <p class="mont_light_14_white">Email: info@yfut.org<br />Phone: 801-528-1214</p>
+            </section>
+            <section class="col-sm-12 col-md-2 mailing">
+                <p class="quick_bold_18_white">Mailing Address</p>
+                <p class="mont_light_14_white">Youth Futures</p>
+                <p class="mont_light_14_white">POB 160301</p>
+                <p class="mont_light_14_white">Clearfield, UT 84016</p>
+            </section>
+            <section class="col-sm-12 col-md-2 shelter">
+                <p class="quick_bold_18_white">Shelter Address</p>
+                <p class="mont_light_14_white">Youth Futures</p>
+                <p class="mont_light_14_white">2760 S. Adams Ave</p>
+                <p class="mont_light_14_white">Ogden, UT 84403</p>
+            </section>
+            <section class="col-sm-12 col-md-2 foot_logo">
+                <img src="~/images/page_1.png" title="house icon" alt="house icon">
+            </section>
+            <section class="col-sm-12 col-md-4 social">
+                <img src="~/images/social_instagram.png" title="house icon" alt="house icon">
+                <img src="~/images/social_twitter.png" title="house icon" alt="house icon">
+                <img src="~/images/social_tumblr.png" title="house icon" alt="house icon">
+                <img src="~/images/social_fb.png" title="house icon" alt="house icon">
+            </section>
+        </div>
+        <div class="copyright mont_regular_16_lightgray">
+            <p>© Youth Futures, Inc.</p>
+        </div>
+    </div>
+</footer>
+<script src="scripts/secondaryScripts.js"></script>
+
