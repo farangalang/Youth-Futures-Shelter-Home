@@ -712,4 +712,6 @@
     height: 100%;
     background-color: #808080;
     float: left;
+    z-index: 100;
+    position: absolute;
 }
