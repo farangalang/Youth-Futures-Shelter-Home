@@ -901,9 +901,3 @@ footer .row {
         }
 }
 
-#sidebar {
-    float: left;
-    width: 250px;
-    background: #ccc;
-    min-height: 100%;
-}
