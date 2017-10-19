@@ -10,8 +10,6 @@
 =======
 >>>>>>> master
 
-rachelberghout
-Verifying pull request for Rachel Berghout
 
 verify pull request
 <<<<<<< HEAD

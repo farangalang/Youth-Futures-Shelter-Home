@@ -16,3 +16,6 @@ Jared | Login
 >>>>>>> 05aee82232fa0cf9e814964eba507c0f96863ae0
 
 Rachel -> Hello!
+
+
+Scott has added this from visual studio 2017
