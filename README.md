@@ -2,5 +2,8 @@
 
 - [x] Scott Hadzik Connected to Github
 
+<<<<<<< HEAD
 edit
 edit 2
+=======
+>>>>>>> master
