@@ -3,6 +3,7 @@
 - [x] Scott Hadzik Connected to Github
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - TEST - Sam R.
 =======
 
