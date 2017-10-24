@@ -11,11 +11,12 @@
     <title>@ViewData["Title"] - Youth_Futures_Shelter_Home</title>
 
     <environment names="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />    
         <link rel="stylesheet" href="~/css/site.css" />
         <link rel="stylesheet" href="~/css/secondaryStyles.css" />
         <link rel="stylesheet" href="~/css/fonts.css" />
         <link rel="stylesheet" href="~/css/main.css"/>
+        <link href="~/css/edit.css" rel="stylesheet" />
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -110,10 +111,12 @@
         <environment names="Development">
             <script src="~/lib/jquery/dist/jquery.js"></script>
             <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+            <script src="~/lib/angular/angular.js"></script>
             <script src="~/js/site.js" asp-append-version="true"></script>
             <script src="~/js/secondaryScripts.js" asp-append-version="true"></script>
             <script src="~/js/gen_validatorv31.js" asp-append-version="true"></script>
             <script src="~/js/login.js" asp-append-version="true"></script>
+            <script src="~/js/edit.js" asp-append-version="true"></script>
             
         </environment>
         <environment names="Staging,Production">
