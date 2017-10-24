@@ -1,0 +1,25 @@
+﻿@model List<Youth_Futures_Shelter_Home.ViewComponents.ServicesItem>
+<div class="row" ng-app="hoverEdit" ng-controller="hoverCtrl">
+    <div class="boxes">
+        @foreach (var service in Model)
+        {
+            <article class="col-xs-3 panel effects clearfix" id="effect-1">
+                    <section class="panel-img-container">
+                        <img src="@service.Image" alt="@service.Alt" class="panel-img"/>
+                    </section>
+                    <section>
+                        <p class="quicksand-light-32 panel-heading">@service.Title</p>
+                    </section>
+                    <section>
+                        <p class="mont-light-light-18 panel-summary">@service.Description</p>
+                    </section>
+                    <section class="panel-footer">
+                        <p class="quicksand-light-24-green"><a href="#">Learn more ></a>
+                        </p>
+                    </section>
+            </article>
+        }
+
+    </div>
+
+</div>
