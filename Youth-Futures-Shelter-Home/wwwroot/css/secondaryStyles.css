@@ -706,3 +706,14 @@
     border-style: solid;
     border-color: #663300;
 }
+
+#sidebar {
+    background-color: #000000;
+    float: left;
+    z-index: 100;
+    position: absolute;
+}
+
+.textarea {
+    max-height: 150px;
+}
