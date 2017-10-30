@@ -26,5 +26,8 @@ Scott has added this from visual studio 2017
 >>>>>>> b29c49c77b4d0faccf7267235e42c975bdb0de74
 =======
 Scott
+<<<<<<< HEAD
+>>>>>>> milestone3master
+=======
 Second Commit
 >>>>>>> milestone3master
