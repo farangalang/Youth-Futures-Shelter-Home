@@ -706,11 +706,3 @@
     border-style: solid;
     border-color: #663300;
 }
-
-#sidebar {
-    width: 382px;
-    background-color: #9ec54d;
-    float: left;
-    z-index: 100;
-    position: absolute;
-}
