@@ -706,6 +706,7 @@
     border-style: solid;
     border-color: #663300;
 }
+<<<<<<< HEAD
 
 #sidebar {
     width: 382px;
@@ -714,3 +715,5 @@
     z-index: 100;
     position: absolute;
 }
+=======
+>>>>>>> parent of 2d63b13... Refining Sidebar
