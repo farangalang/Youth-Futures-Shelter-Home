@@ -6,11 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
     <PackageReference Include="BundlerMinifier.Core" Version="2.5.357" />
-=======
+    <PackageReference Include="BundlerMinifier.Core" Version="2.6.362" />
     <PackageReference Include="EntityFramework" Version="6.2.0" />
->>>>>>> samuelreeder
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.0" />
@@ -30,11 +28,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Data\" />
-<<<<<<< HEAD
-=======
->>>>>>> samuelreeder
+    <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\images\" />  
   </ItemGroup>
 

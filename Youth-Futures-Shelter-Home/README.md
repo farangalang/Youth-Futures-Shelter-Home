@@ -28,8 +28,12 @@ Scott has added this from visual studio 2017
 Scott
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/scotthadzik
 =======
+=======
+>>>>>>> milestone3master
+>>>>>>> samuelreeder
 =======
 Second Commit
 >>>>>>> samuelreeder
