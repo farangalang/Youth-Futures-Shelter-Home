@@ -1,0 +1,554 @@
+[33mcommit eecf70cc8fa1963e5ab688c5bec351303f4a545d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: e9c954c 0e145ee
+Author: rberghout <rachelberghout@mail.weber.edu>
+Date:   Thu Oct 19 08:43:56 2017 -0600
+
+    Merge branch 'master' of https://github.com/farangalang/Youth-Futures-Shelter-Home
+
+[33mcommit e9c954c5cd95e38d5a7ea33ac6ad86cb5949614e[m
+Author: rberghout <rachelberghout@mail.weber.edu>
+Date:   Thu Oct 19 08:43:18 2017 -0600
+
+    Working on login authentication.
+
+[33mcommit 0e145ee7ee9965f8e98e664873c3975ea5bce59b[m
+Merge: fe7ffe6 0aa35db
+Author: Scott Hadzik <scotthadzik@weber.edu>
+Date:   Tue Oct 17 10:16:50 2017 -0600
+
+    Merge pull request #1 from farangalang/scotthadzik
+    
+    changed to test pull request
+
+[33mcommit 0aa35db756ceaf75c15c1494e2820e230db6c161[m
+Author: Scott Hadzik <scotthadzik@weber.edu>
+Date:   Tue Oct 17 10:13:50 2017 -0600
+
+    changed to test pull request
+
+[33mcommit bb86df39b8a3c45921aa2c86e446a45f537d05a0[m
+Author: rberghout <rachelberghout@mail.weber.edu>
+Date:   Thu Oct 12 08:27:29 2017 -0600
+
+    added Identity.EntityFrameworkCore
+    working on authorizing login
+
+[33mcommit fe7ffe6ad81f2c9a199322dbb369ce9ecdd01f5e[m
+Author: AvA4EvR <31218871+AvA4EvR@users.noreply.github.com>
+Date:   Tue Oct 10 09:36:46 2017 -0600
+
+    Sidebar color change
+
+[33mcommit f4771ca794fb95609caca8443bc704098c159804[m
+Author: AvA4EvR <31218871+AvA4EvR@users.noreply.github.com>
+Date:   Tue Oct 10 07:27:06 2017 -0600
+
+    Style changes
+
+[33mcommit e7e12c3998487511c15bd1bf30bead201581382c[m
+Author: AvA4EvR <AvA4EvR@hotmail.com>
+Date:   Mon Oct 9 12:24:22 2017 -0600
+
+    Adjust sidebar view and coloring
+
+[33mcommit 62849a3ec0b6f23df64867f558a07ba17e41ea76[m
+Author: AvA4EvR <AvA4EvR@hotmail.com>
+Date:   Mon Oct 9 12:09:16 2017 -0600
+
+    Better working sidebar
+
+[33mcommit 1c464cbc9d32c905bdb5382303a7d7344c268aad[m
+Author: AvA4EvR <AvA4EvR@hotmail.com>
+Date:   Mon Oct 9 11:55:07 2017 -0600
+
+    Working sidebar (Faux content)
+
+[33mcommit cbb47fc5fdfa738f70cfc498ff353203ea39bb48[m
+Author: AvA4EvR <31218871+AvA4EvR@users.noreply.github.com>
+Date:   Sun Oct 8 19:59:40 2017 -0600
+
+    Work on edit sidebar (non-functonal)
+
+[33mcommit 868eb1edd49fa56e773481dbbea21913b2d3f2f3[m
+Author: AvA4EvR <31218871+AvA4EvR@users.noreply.github.com>
+Date:   Sun Oct 8 12:08:54 2017 -0600
+
+    Code cleanup
+
+[33mcommit 95aeb64776924dde89758348ea74ae96ab6f44fc[m
+Author: rberghout <rachelberghout@mail.weber.edu>
+Date:   Wed Oct 4 19:57:53 2017 -0600
+
+    Modified login screen to look better
+
+[33mcommit 91bb4b6ffdaa61edcee9341e74f9cacbce02ae7f[m
+Author: rberghout <rachelberghout@mail.weber.edu>
+Date:   Wed Oct 4 09:20:05 2017 -0600
+
+    Modified login modal to be centered
+    Added opacity to the background
+
+[33mcommit 46d80806c40342845ea891ad43547d0b244e4c56[m
+Author: rberghout <rachelberghout@mail.weber.edu>
+Date:   Tue Oct 3 18:40:07 2017 -0600
+
+    Added login screen
+    Login screen can hide and show
+
+[33mcommit 7006a993cc2f09bf6bbc23cd4b4801e13921e691[m
+Author: AvA4EvR <AvA4EvR@hotmail.com>
+Date:   Mon Oct 2 16:54:13 2017 -0600
+
+    Add test css
+
+[33mcommit fdeb308001d0093c852b271710d1cd66eff8a3ac[m
+Author: AvA4EvR <AvA4EvR@hotmail.com>
+Date:   Mon Oct 2 16:40:46 2017 -0600
+
+    Try on sidebar (not working)
+
+[33mcommit b9ba0eaf1461d3c044083093ac64a1bf8dd58c69[m
+Author: AvA4EvR <AvA4EvR@hotmail.com>
+Date:   Mon Oct 2 15:48:43 2017 -0600
+
+    Add "Edit" controller, IActionResult for "IndexEdit" page
+
+[33mcommit 10f55ef10aa5a4de2c50ea97e76626d3e83c4897[m
+Author: AvA4EvR <AvA4EvR@hotmail.com>
+Date:   Mon Oct 2 14:21:25 2017 -0600
+
+    Create edit view page
+
+[33mcommit fe5876e543cd7e8d06e69c5fe8b773e9d957cf06[m
+Author: Jeffrey Garcia <jeffreygarcia3843@gmail.com>
+Date:   Mon Oct 2 00:50:21 2017 -0600
+
+    Corrected address on Contact Information
+
+[33mcommit c9b0f2a0d45639a74f043d3e4a08b9cd9a903a92[m
+Author: Jeffrey Garcia <jeffreygarcia3843@gmail.com>
+Date:   Mon Oct 2 00:42:13 2017 -0600
+
+    Revert "Corrected address on Contact Us Info"
+    
+    This reverts commit 5a70073cee4e66f035a3b06cdcfe11e17e009e38.
+
+[33mcommit 5a70073cee4e66f035a3b06cdcfe11e17e009e38[m
+Author: Jeffrey Garcia <jeffreygarcia3843@gmail.com>
+Date:   Mon Oct 2 00:18:26 2017 -0600
+
+    Corrected address on Contact Us Info
+
+[33mcommit 4c66db3495606910558ba1af24a6beca539f9bd7[m
+Author: scotthadzik <smhadzik@parimote.com>
+Date:   Thu Sep 28 10:15:57 2017 -0600
+
+    Added login menu item. Non-functioning
+
+[33mcommit 225cc199ac8473017e2be2aff4a8613174c5634b[m
+Author: rberghout <rachelberghout@mail.weber.edu>
+Date:   Tue Sep 26 22:50:24 2017 -0600
+
+    Edited some of the CSS to be more organized
+    Made the "Services" and the "Volunteer" sections all on the same line
+
+[33mcommit 4d7d1e6af57ecb1f5c04bafbf01b3611ff9d5001[m
+Author: rberghout <rachelberghout@mail.weber.edu>
+Date:   Tue Sep 26 11:19:54 2017 -0600
+
+    Changed the image above "Apply to Volunteer" to "heart_hand.svg"
+
+[33mcommit 48ab0fa6129dc3caf0d5baed2a73dbe550cb2ca3[m
+Author: scotthadzik <smhadzik@parimote.com>
+Date:   Mon Sep 25 22:49:01 2017 -0600
+
+    Changed donate button to blue #c5e4f6 Is this the right blue?
+
+[33mcommit eb829599caee54d1bc3129f2d56a6e0cea7ca3e8[m
+Author: scotthadzik <smhadzik@parimote.com>
+Date:   Mon Sep 25 21:54:13 2017 -0600
+
+    Added Bundle Minifier Nuget
+    Change background color of button
+
+[33mcommit 9e34c3e11de624554af3cc2190a877819129a731[m
+Author: scotthadzik <smhadzik@parimote.com>
+Date:   Mon Sep 25 20:49:00 2017 -0600
+
+    Added Entity Framework 1.1.3
+
+[33mcommit a521a850f09a000a248d1118dc36e98820ff645f[m
+Author: scotthadzik <smhadzik@parimote.com>
+Date:   Mon Sep 25 20:16:14 2017 -0600
+
+    Added the Models Folder
+
+[33mcommit 46dbfcba75e52fb6f003e0b90228d170ee4de0f3[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 19:54:27 2017 -0600
+
+    removed boilerplate contact.cshtml secondary.cshtml was moved to About and then deleted. Removed reference to view in controller
+
+[33mcommit 95339b3be008cfbf0e80a5f31929a108be35d4a3[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 19:53:10 2017 -0600
+
+    Added navigation bar to layout removed it from index and about. Changed the secondary.html to About.cshtml
+
+[33mcommit e441584107c1ebd91822d372ab0c73ace7864e10[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 16:42:52 2017 -0600
+
+    Fixed reference to the css background images
+
+[33mcommit 6fba279266bed6346ec16c0272fb29f1e5eed258[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 16:19:37 2017 -0600
+
+    Fixed references to resources to images
+
+[33mcommit 9483fe7739936156db1b25fab9e6422b1c4dbedd[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 16:07:02 2017 -0600
+
+    Updated reference to images instead of resources
+
+[33mcommit b8932fa94701e9caeb73bf1bc36367734d7d53d0[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 16:06:00 2017 -0600
+
+    Added main.css and updated references to it
+
+[33mcommit 8cd35480a05f907f7daeed2efd37495d33a9eb39[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 16:04:18 2017 -0600
+
+    Updated refernce to images from resources
+
+[33mcommit b14907987e22b1f0040dd043dd96db0708a1cb08[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 16:01:29 2017 -0600
+
+    Updated reference to images folder instead of resource
+
+[33mcommit 5508299e70e0f35ed7aa66cc02fa0b5a9a826bca[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 16:00:03 2017 -0600
+
+    Removed banner that was remenent of boiler plate
+
+[33mcommit 697d64961520429b897d0e60798531f09e1cee05[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:34:21 2017 -0600
+
+    Added the correct reference to the images on the index file. all images are found in root/images rather then resources
+
+[33mcommit 4b6e25692bf2d5c4cde25930d836b90b28c468c8[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:25:23 2017 -0600
+
+    removed lower html and body tags that are now found in _layout
+
+[33mcommit 44c48f75120937cdf85811ce2b2449ea7bfbd93c[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:24:05 2017 -0600
+
+    Removed references from index that are now contained in the _layout file
+
+[33mcommit d8a3ff4b379b5fcb6cf2b628855c4c29931214e7[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:23:13 2017 -0600
+
+    Moved Meta that was in the head of indect to the _layout
+
+[33mcommit 2b2846e73e58df124070eda8c798413a6400a214[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:21:25 2017 -0600
+
+    Added references to js file ge_caliidator and secondaryScripts also added minified versions and reference
+
+[33mcommit bfb4082cdc66e916ab297ddaeca64cdbf818e9f8[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:18:57 2017 -0600
+
+    Moved contents from script.js to site.js
+
+[33mcommit 92bef79759cedfbab3e01aa66e667f93020cfa0c[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:17:07 2017 -0600
+
+    Added reference to the minified versions of the css styles fonts and secondaryStyles
+
+[33mcommit 7d7f4a8bea3925d551a4ffc4dd1f55fe017a4078[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:14:02 2017 -0600
+
+    Added the two addistional style sheets to the _layout template fonts.css and secondaryStyles.css
+
+[33mcommit 79d1d6b49238d25e0cd39abe96e136c6c8d9ae02[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:11:39 2017 -0600
+
+    Changed the contents of site.css to match style.css
+
+[33mcommit 107aa24c033e453423f6e7ee18c96f0b4b1ead18[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:08:25 2017 -0600
+
+    Commented out default top nav bar for all layouts
+
+[33mcommit 99d34b1e084d114d559675379677b153d6766ea9[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:05:54 2017 -0600
+
+    Added the view from YF scondary.html
+
+[33mcommit d1e38162d81ba0547d158f07a15468ab13b8fdcf[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:04:20 2017 -0600
+
+    Moved gen_validatorv32 and script and secondaryScipts from scrips YF to js
+
+[33mcommit 21fd3ac0a6cb648bbc8934499a9b0655e73f066e[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:03:15 2017 -0600
+
+    Moved style.css to css folder. In the YF this was in the root and not in styles
+
+[33mcommit 46b5f4b5714aa78ec561618cce931641579e609a[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:02:20 2017 -0600
+
+    Moved fonts.css and secondaryStyles.css to css folder from YF
+
+[33mcommit 2140422e0a03134f23f54d95e86aa479ad628d7f[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 14:01:02 2017 -0600
+
+    Replaced site.css content with the content found in main.css in the YF folder
+
+[33mcommit 86925b7c13e35bfc987fb630379dd5c8ea60adf0[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 13:59:18 2017 -0600
+
+    Added resources folder to images folder
+
+[33mcommit e2d75d53d364ed2cae684b289ea498b65065ba07[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 13:57:03 2017 -0600
+
+    Added the index file from the YF html
+
+[33mcommit 20fa2e137b93fb54b7d7006b4d3c642f1ff7f17d[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Fri Sep 22 13:49:48 2017 -0600
+
+    Added Comments to clarify the use of _ViewStart
+
+[33mcommit f714afc1664cea12dd333083c8f4ad21d20de442[m
+Author: rberghout <rachelberghout@mail.weber.edu>
+Date:   Thu Sep 21 10:35:41 2017 -0600
+
+    Added to the README.md file
+
+[33mcommit c42f20c6921d901051e382c3ac5e3c227a8cc527[m
+Merge: 976bfb8 05aee82
+Author: Jeffrey Garcia <jeffreygarcia3843@gmail.com>
+Date:   Thu Sep 21 10:26:43 2017 -0600
+
+    Merge branch 'master' of https://github.com/farangalang/Youth-Futures-Shelter-Home
+
+[33mcommit 05aee82232fa0cf9e814964eba507c0f96863ae0[m
+Author: AvA4EvR <31218871+AvA4EvR@users.noreply.github.com>
+Date:   Thu Sep 21 10:25:45 2017 -0600
+
+    Change to ReadME
+    
+    Add text to read me
+
+[33mcommit 976bfb895566d643a8b36cc44afe923da03eb58e[m
+Merge: 9d53736 f90d834
+Author: Jeffrey Garcia <jeffreygarcia3843@gmail.com>
+Date:   Thu Sep 21 10:25:03 2017 -0600
+
+    Merge branch 'master' of https://github.com/farangalang/Youth-Futures-Shelter-Home
+
+[33mcommit 9d5373648353afc5239681ee79d16400df7d12c7[m
+Author: Jeffrey Garcia <jeffreygarcia63@gmail.com>
+Date:   Thu Sep 21 10:23:57 2017 -0600
+
+    Added ELse to Something
+
+[33mcommit 68afdeb633e416c7d5ce05f0e890543b8f69199c[m
+Author: Jeffrey Garcia <jeffreygarcia63@gmail.com>
+Date:   Thu Sep 21 10:21:07 2017 -0600
+
+    Deleted else form something else
+
+[33mcommit f90d83443998b3b9decf9fd1101d4c48475ec97a[m
+Author: AvA4EvR <31218871+AvA4EvR@users.noreply.github.com>
+Date:   Thu Sep 21 10:20:53 2017 -0600
+
+    Made a comment example
+    
+    No real code, verifying code runs ok
+
+[33mcommit 530a14b661dbe658eb54859e39a03b3755131efa[m
+Author: Jeffrey Garcia <jeffreygarcia63@gmail.com>
+Date:   Thu Sep 21 10:18:04 2017 -0600
+
+    Added else
+
+[33mcommit 4569dc1f56a2e388b513ce4f8774f18ed9ac622d[m
+Author: Jeffrey Garcia <jeffreygarcia63@gmail.com>
+Date:   Thu Sep 21 10:15:36 2017 -0600
+
+    Some message
+
+[33mcommit 708003d8b7e325fc6172056fde1381547ee0698b[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Tue Sep 19 21:30:52 2017 -0600
+
+    re-attached head
+
+[33mcommit 744ab2619bdd7e1d2bce09e7bd328aa3e4c95d1a[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Tue Sep 19 21:25:29 2017 -0600
+
+    Added Jeff to Readme
+
+[33mcommit 9a19e42c70350736c9128538599b7657cdf49450[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Tue Sep 19 21:24:20 2017 -0600
+
+    Added Additional Checkbox
+
+[33mcommit e6c7e303f6814a093bda088cab8567d2d95bc99e[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Tue Sep 19 21:22:30 2017 -0600
+
+    Added Additional Checkbox
+
+[33mcommit 5caa0e9799cd6e755ea0a105df19cf4e30cddc84[m
+Author: Scott Hadzik <scotthadzik@weber.edu>
+Date:   Tue Sep 19 21:21:49 2017 -0600
+
+    Updated Readme MM title
+
+[33mcommit 4c48fcac9cdfbeed1816f61a365163751124a0a1[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Tue Sep 19 21:19:52 2017 -0600
+
+    Added Additional Checkbox
+
+[33mcommit 9c4d4ea4dec6f7ff5c140a1988dd1a4e357e2cbd[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Mon Sep 18 08:52:31 2017 -0600
+
+    Added Additional Checkbox
+
+[33mcommit 8e1aa35bcd465cb1871e481bdc9a7aacc88c91ae[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Mon Sep 18 08:49:30 2017 -0600
+
+    Added contect to readme
+
+[33mcommit 80db7fdd92d0baac5406dbab0927c5ef2c2f0309[m
+Author: Scott Hadzik <scotthadzik@weber.edu>
+Date:   Mon Sep 18 08:40:02 2017 -0600
+
+    Added Readme to project file
+
+[33mcommit 69096078427531ea2288217dc22272cafab383f2[m
+Author: Scott Hadzik <scotthadzik@weber.edu>
+Date:   Mon Sep 18 08:38:16 2017 -0600
+
+    Added Scott to Readme
+
+[33mcommit fd15723d42e04636db1d45981130849302678815[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Mon Sep 18 07:32:09 2017 -0600
+
+    Added initial C# Framework
+    
+    MVC Entity Angular Bootsrap
+
+[33mcommit 19160f33cf29c50602b40ddead30f4570aefb36f[m
+Author: Scott Hadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 23:10:55 2017 -0600
+
+    Added VS ignore files
+
+[33mcommit 8e0dcd197e425c3b509da1d78a636ed03543f032[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 23:09:46 2017 -0600
+
+    Added common .gitignore from octocat
+
+[33mcommit dc3751028b075714bcdb55446d7af71d22f2772a[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 23:08:31 2017 -0600
+
+    Added .gitignore
+
+[33mcommit 25d61367d30171307c713abea5e27363f185b34d[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 23:06:28 2017 -0600
+
+    Fresh pull prior to .gitignore addition
+
+[33mcommit 046a3cf347cc8e80c69e46d6e779e6132e449a8c[m
+Author: Scott Hadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 22:23:09 2017 -0600
+
+    Added Visual Studio gitignore items
+
+[33mcommit e8950cae46b94eb8fa428f537ba3fa0cb1e840ca[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 22:21:36 2017 -0600
+
+    added gitignore
+
+[33mcommit 58eb3d0f7f44959d3db7edddfa97f5720c8714b6[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 21:27:26 2017 -0600
+
+    changes to extensions
+
+[33mcommit 8a2373ebbe790e7c27111456c0b4a68a6230c85f[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 21:09:34 2017 -0600
+
+    Added Extensions
+
+[33mcommit 9e633d77df7fe70206d8fa424e989e0cd9b22dca[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 20:31:40 2017 -0600
+
+    Changes for push
+
+[33mcommit 306fd125f8386708282952026007b86a728a5204[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 20:19:07 2017 -0600
+
+    Initial Framework
+
+[33mcommit 20fc9db488427e65c2d2ed6f10ac1d942765641d[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 20:16:52 2017 -0600
+
+    revert to original
+
+[33mcommit 61b97fd684e13a564b37f902cd265baeef94ed16[m
+Author: scotthadzik <scotthadzik@weber.edu>
+Date:   Sun Sep 17 19:34:41 2017 -0600
+
+    Initial Commit
+    
+    This is the MVC Framework Initial Project
+
+[33mcommit f47aea71abb1d5f8de08045db3a8c38387c61dbd[m
+Author: AvA4EvR <31218871+AvA4EvR@users.noreply.github.com>
+Date:   Tue Sep 5 09:57:25 2017 -0600
+
+    Initial commit
