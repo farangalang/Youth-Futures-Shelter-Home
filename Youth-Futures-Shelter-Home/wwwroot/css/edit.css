@@ -1,1 +1,15 @@
 ﻿
+
+
+/*Section for changing style of hover*/
+.hover
+{
+    padding: 3px;
+    background-color: blue
+}
+
+    .hover-edit-trigger:hover 
+    {
+        border: 1px solid #4286f4;
+        border-radius: 4px;
+    }

@@ -29,7 +29,7 @@
     </environment>
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
-<body>
+<body ng-app="app-edit" ng-controller ="editController as vm">
     <div id="main-body">
         <nav class="navbar navbar-default">
             <div class="container-fluid">
@@ -112,11 +112,12 @@
             <script src="~/lib/jquery/dist/jquery.js"></script>
             <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
             <script src="~/lib/angular/angular.js"></script>
+            <script src="~/js/app-edit.js"></script>
+            <script src="~/js/editController.js"></script>
             <script src="~/js/site.js" asp-append-version="true"></script>
             <script src="~/js/secondaryScripts.js" asp-append-version="true"></script>
             <script src="~/js/gen_validatorv31.js" asp-append-version="true"></script>
             <script src="~/js/login.js" asp-append-version="true"></script>
-            <script src="~/js/edit.js" asp-append-version="true"></script>
             
         </environment>
         <environment names="Staging,Production">

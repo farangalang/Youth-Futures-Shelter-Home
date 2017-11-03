@@ -1,9 +1,18 @@
 ﻿@model List<Youth_Futures_Shelter_Home.ViewComponents.ServicesItem>
-<div class="row" ng-app="hoverEdit" ng-controller="hoverCtrl">
+<div class="row">
+    
+    
+    <button ng-class="{'hover' : hover}" ng-mouseenter="hover = true" ng-mouseleave="hover = false">
+        Increment (when mouse enters)
+    </button>
+
+    
+
     <div class="boxes">
         @foreach (var service in Model)
         {
-            <article class="col-xs-3 panel effects clearfix" id="effect-1">
+            
+                <article class="col-xs-3 panel effects clearfix" id="effect-1" ng-class="{'hover' : hover}" ng-mouseenter="hover = true" ng-mouseleave="hover = false">
                     <section class="panel-img-container">
                         <img src="@service.Image" alt="@service.Alt" class="panel-img"/>
                     </section>
@@ -17,7 +26,9 @@
                         <p class="quicksand-light-24-green"><a href="#">Learn more ></a>
                         </p>
                     </section>
-            </article>
+                </article>
+          
+
         }
 
     </div>
