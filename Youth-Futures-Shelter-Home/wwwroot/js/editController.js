@@ -16,12 +16,13 @@
             return{
                 link: function($scope, element, attrs) {
                     element.on("mouseenter",
-                        function() {
-                            element.css("background-color", "yellow");
+                        function () {
+                            element.css("transition", ".5s ease"),
+                                element.css("opacity", "0.3");
                         });
                     element.on("mouseleave",
                         function () {
-                            element.css("background-color", "white");
+                            element.css("opacity", "1");
                         });
                 }
             }
