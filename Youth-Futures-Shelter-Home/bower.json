@@ -6,6 +6,7 @@
     "jquery": "2.2.0",
     "jquery-validation": "1.14.0",
     "jquery-validation-unobtrusive": "3.2.6",
-    "angular": "v1.6.7-build.5487+sha.32fbb2e"
+    "angular": "v1.6.7-build.5487+sha.32fbb2e",
+    "hover": "Hover#v2.1.1"
   }
 }

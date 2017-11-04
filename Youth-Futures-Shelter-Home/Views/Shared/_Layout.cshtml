@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="~/css/secondaryStyles.css" />
         <link rel="stylesheet" href="~/css/fonts.css" />
         <link rel="stylesheet" href="~/css/main.css"/>
+        <link href="~/lib/hover/css/hover.css" rel="stylesheet" />
         <link href="~/css/edit.css" rel="stylesheet" />
     </environment>
     <environment names="Staging,Production">
@@ -26,6 +27,7 @@
         <link rel="stylesheet" href="~/css/secondaryStyles.min.css" asp-append-version="true" />
         <link rel="stylesheet" href="~/css/fonts.min.css" asp-append-version="true" />
         <link rel="stylesheet" href="~/css/main.min.css" asp-append-version="true" />
+        
     </environment>
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
@@ -112,8 +114,8 @@
             <script src="~/lib/jquery/dist/jquery.js"></script>
             <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
             <script src="~/lib/angular/angular.js"></script>
-            <script src="~/js/app-edit.js"></script>
-            <script src="~/js/editController.js"></script>
+            <script src="~/js/editController.js" asp-append-version="true"></script>
+            
             <script src="~/js/site.js" asp-append-version="true"></script>
             <script src="~/js/secondaryScripts.js" asp-append-version="true"></script>
             <script src="~/js/gen_validatorv31.js" asp-append-version="true"></script>
@@ -137,6 +139,7 @@
             <script src="~/js/secondaryScripts.min.js" asp-append-version="true"></script>
             <script src="~/js/gen_validatorv31.min.js" asp-append-version="true"></script>
             <script src="~/js/login.js" asp-append-version="true"></script>
+            <script src="~/js/editController.js" asp-append-version="true"></script>
         </environment>
 
         @RenderSection("Scripts", required: false)
