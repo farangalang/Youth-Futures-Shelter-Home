@@ -6,14 +6,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace YouthFuturesShelterHome.Models
 {
-    [Table(name: "Services")]
-    public class ServiceContent
+    [Table(name: "Voulnteer")]
+    public class VoulnteerContent
     {
-        public int serviceID { get; set; }
+        public int voulnteerID { get; set; }
         public string imagePath { get; set; }
         public string header_text { get; set; }
-        public string body_text { get; set; }
-        public string link_text { get; set; }
-
+        public string  link_text { get; set; }
     }
 }
