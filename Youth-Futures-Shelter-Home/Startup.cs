@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using YouthFuturesShelterHome.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Youth_Futures_Shelter_Home
 {
@@ -29,6 +31,9 @@ namespace Youth_Futures_Shelter_Home
         {
             // Add framework services.
             services.AddMvc();
+
+            services.AddDbContext<CMSDBDataContext>(options => 
+                options.UseSqlServer(Configuration.GetConnectionString("MVCYFHSContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
